@@ -1,0 +1,24 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    
+    display: flex;
+    height: 700px;
+    width: 700px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid;
+    
+    
+}
+
+.square {
+    height: 6.25%;
+    width: 6.25%;
+    border: solid;
+    box-sizing: border-box;
+}
