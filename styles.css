@@ -22,3 +22,10 @@ body, html{
     border: solid;
     box-sizing: border-box;
 }
+
+
+
+.square.colored {
+    background-color: lightgreen;
+}
+
