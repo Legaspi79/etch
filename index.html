@@ -8,12 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="gridContainer">   
-        <div class="sliderContainer">
-            <div class="sliderValue" id="sliderValue"></div>
-            <div>Grid Size</div>
-            <input type="range" id="range" value="16" min="4" max="64" step="2">
-        </div>
+    <div class="gridContainer">  
+         <div class="sliders">
+            <div class="gridSliderContainer">
+                <div class="gridSliderValue" id="gridSliderValue"></div>
+                <div>Grid Size</div>
+                <input type="range" id="gridRange" value="16" min="4" max="64" step="2">
+                <button class="clear" id="clear">Clear</button>
+            </div>
+            <div class="colorSliderContainer">
+                <!-- <div class="colorSliderValue" id="colorSliderValue"></div> -->
+                <div>Color</div>
+                <input type="color" id="colorRange" >
+                
+            </div>
+         </div>
+        
         <div class="container">
             <!-- <div class="square"></div> -->
         </div>
