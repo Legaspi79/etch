@@ -4,28 +4,39 @@ body, html{
     
 }
 
-.container {
-    
+.gridContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: grid;
     height: 700px;
     width: 700px;
     flex-wrap: wrap;
     flex-direction: column;
     border: solid;
+    grid-template-columns: repeat(16, 1fr);
     
     
 }
 
 .square {
-    height: 6.25%;
-    width: 6.25%;
-    border: solid;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: thin;
     box-sizing: border-box;
 }
 
 
 
 .square.colored {
-    background-color: lightgreen;
+    background-color: purple;
 }
 
+
+.popup {
+    display: none;
+}
